@@ -1,17 +1,29 @@
 package areaprisma;
-
+/**
+ * liberías
+ */
 import java.util.Scanner;
-
+/**
+ * 
+ * @author YENIFER LOPEZ
+ */
 class Prisma {
 
     private int baseTriangulo;
     private int alturaPrisma;
-
+/**
+ * 
+ * @param base 
+ * @param altura 
+ */
     public Prisma(int base, int altura) {
         this.baseTriangulo = base;
         this.alturaPrisma = altura;
     }
-
+/**
+ * 
+ * @return devuelve la base del triángulo
+ */
     public int getBaseTriangulo() {
         return this.baseTriangulo;
     }
